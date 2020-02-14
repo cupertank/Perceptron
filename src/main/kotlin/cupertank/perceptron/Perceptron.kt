@@ -1,8 +1,7 @@
 package cupertank.perceptron
 
-import cupertank.perceptron.layers.Layer
-import cupertank.perceptron.serializers.Config
-import cupertank.perceptron.serializers.Weights
+import cupertank.perceptron.layers.*
+import cupertank.perceptron.serializers.*
 import koma.extensions.*
 import koma.matrix.*
 import kotlinx.serialization.json.*

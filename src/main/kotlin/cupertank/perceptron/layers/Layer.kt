@@ -4,8 +4,6 @@ import cupertank.perceptron.serializers.Dense
 import cupertank.perceptron.serializers.LayerData
 import cupertank.perceptron.serializers.LayerType
 import koma.matrix.*
-import koma.extensions.*
-import koma.internal.*
 
 class Layer(layerType: LayerType, layerData: LayerData) {
     val name : String
